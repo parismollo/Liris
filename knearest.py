@@ -1,5 +1,6 @@
-from typing import List
+from typing import List, NamedTuple
 from collections import Counter
+from resources.linear_algebra import Vector, distance
 
 # Let's pick a number k like 3 and then classify some new data point, we will look for the k nearest labeled points and let them vote
 # however this won't be able to deal with ties...
@@ -22,3 +23,13 @@ def majority_vote(labels: List[str]) -> str:
         return majority_vote(labels[:-1])
 
 assert majority_vote(['a', 'b', 'c', 'b', 'a']) == 'b'
+
+
+class LabeledPoint(NamedTuple):
+    point: Vector
+    label: str
+
+def knn_classify(k: int, labeled_points: List[LabeledPoint], new_point: Vector) -> str:
+    by_distance = sorted(labeled_points, key=lambda lp: distance(lp.point, new_point))
+    k_nearest_labels = [lp.label for lp in by_distance[:k]]
+    return majority_vote(k_nearest_labels)
