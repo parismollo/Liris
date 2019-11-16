@@ -1,5 +1,5 @@
 
-<img src="img/logo.png" alt="logo" width="200" heigth="180"/>
+<img src="img/logo01.png" alt="logo" width="200" heigth="180"/>
 
 
 The purpose of this repository is my self practice of the K-Nearest Neighbors model. Exercise from the Book "Data Science from Scratch"
