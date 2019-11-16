@@ -18,7 +18,7 @@ The model requires only a notion of distance and an assumption that points that 
 * 3 different species
 * measurements: petal and sepal length, petal and sepal width
 
-The purpose of this project is to build a model that can predicts the species of the flower from the measurement of the petal and the sepal
+The purpose of this project is to build a model that can predicts the species of the flower from the measurements of the petal and the sepal
 
 
 
