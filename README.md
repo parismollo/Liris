@@ -1,4 +1,6 @@
-# K-Nearest Neighbors
+
+<img src="img/logo.png" alt="logo" width="150" heigth="150"/>
+
 
 The purpose of this repository is my self practice of the K-Nearest Neighbors model. Exercise from the Book "Data Science from Scratch"
 
