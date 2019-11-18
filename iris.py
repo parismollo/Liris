@@ -11,6 +11,7 @@ from collections import defaultdict
 from knearest import LabeledPoint
 from resources.linear_algebra import Vector
 from knearest import knn_classify
+import time
 
 
 def parse_iris_row(row: List[str]) -> LabeledPoint:
@@ -74,7 +75,10 @@ def run_model():
     print(pct_correct, confusion_matrix)
 
 if __name__ == "__main__":
-    print("Running model\n")
+    print("Running model.....\n")
+    time.sleep(2)
     run_model()
-    print("Plotting scatter graph")
+    time.sleep(2)
+    print("Plotting scatter graph.....")
+    time.sleep(2)
     plot_scatter()
