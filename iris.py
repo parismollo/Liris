@@ -74,7 +74,7 @@ def run_model():
     print(pct_correct, confusion_matrix)
 
 if __name__ == "__main__":
-    print("running model")
+    print("Running model\n")
     run_model()
     print("Plotting scatter graph")
     plot_scatter()
