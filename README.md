@@ -22,6 +22,13 @@ The model requires only a notion of distance and an assumption that points that 
 
 The purpose of this project is to build a model that can predicts the species of the flower from the measurements of the petal and the sepal
 
+## The limits of the k-nearest neighbors algorithm
+
+We know that the k-nearest neighbors algorithm relies on the computation of distances between the labeled points and the new point, the nearest labeled points from the new point will determine the prediction.
+
+However, the more dimensions we add, more vast is the multi dimensional space and points tend to not be close to another at all.
+
+It will be necessary to do a dimensionality reduction if we intend to compute in higher dimensions using the k-nearest neighbors algorithm
 
 
 ## Resources that I used to learn about this fun topic:
