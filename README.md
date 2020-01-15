@@ -2,7 +2,7 @@
 <img src="img/logo01.png" alt="logo" width="200" heigth="180"/>
 
 
-The purpose of this repository is my self practice of the K-Nearest Neighbors model. Exercise from the Book "Data Science from Scratch"
+The purpose of this repository is myself practice of the K-Nearest Neighbors model. Exercise from the Book "Data Science from Scratch"
 
 I am a student that is learning, let me know if you find any errors,the code is inspired from examples and exercises found in books.
 
